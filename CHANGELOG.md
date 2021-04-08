@@ -8,3 +8,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 - Inital build of application from [tutorial part 3](https://itnext.io/go-tutorial-database-queries-on-go-with-postgresql-part-iii-c8907729c2f).
+- Refactored App into /app and product model into /models.

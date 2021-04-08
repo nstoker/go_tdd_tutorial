@@ -15,5 +15,5 @@ func main() {
 	if port == "" {
 		logrus.Fatal("port environment variable missing")
 	}
-	a.Run(":" + port)
+	a.Run(port)
 }

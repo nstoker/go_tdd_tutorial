@@ -10,10 +10,11 @@ import (
 	"testing"
 
 	"github.com/joho/godotenv"
+	"github.com/nstoker/go_tdd_tutorial/app"
 	"github.com/sirupsen/logrus"
 )
 
-var a App
+var a app.App
 
 func TestMain(m *testing.M) {
 	godotenv.Load(".test.env")
